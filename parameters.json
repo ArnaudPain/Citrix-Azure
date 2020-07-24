@@ -1,0 +1,57 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+  "artifactsBaseUrl" :{
+    "value": "https://github.com/ArnaudPain/Citrix-Azure/blob/master"
+    },
+    "adminUsername": {
+      "value": "ctxadmin"
+    },
+    "adminPassword": {
+      "value": "Citrix123456!"
+    },
+    "machineSize": {
+      "value": "Standard_DS2_v2"
+    },
+   "azureGov": {  
+	  "value": "false"
+    },    
+	"customer": {
+      "value": "​2g60i8n7zhxd"
+    },
+    "clientID": {
+      "value": "848b013d-4920-43da-8328-57b616c946c3"
+    },
+    "clientSecret": {
+      "value": "9dGVZs8NTbpkLAMXDFsVDw=="
+    },
+    "resourceLocationId": {
+      "value": "Azure-EastUS2"
+    },
+	"vnetName":{
+	  "value": "CTX-VNET"
+	},
+	"subnetName":{
+	  "value": "Default"
+	},
+	"domainName":{
+	  "value": "ctx"
+	},
+	"domainUsername":{
+	  "value": "administrator"
+	},
+	"domainPassword":{
+	  "value": "Citrix2020!"
+	},
+	"cloudConnectorIP-1":{
+	  "value": "10.0.0.10"
+	},
+	"cloudConnectorIP-2":{
+	  "value": "10.0.0.11"
+	},
+	"domainControllerIp":{
+	  "value": "192.168.0.150"
+	}
+  }
+}
