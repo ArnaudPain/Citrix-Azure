@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
   "artifactsBaseUrl" :{
-    "value": "https://github.com/ArnaudPain/Citrix-Azure/blob/master"
+    "value": "https://https://github.com/ArnaudPain/Citrix-Azure/blob/master"
     },
     "adminUsername": {
       "value": "ctxadmin"
@@ -18,31 +18,31 @@
 	  "value": "false"
     },    
 	"customer": {
-      "value": "​2g60i8n7zhxd"
+      "value": "[YOUR_CITRIX_CLOUD_CUSTOMER_ID]"
     },
     "clientID": {
-      "value": "848b013d-4920-43da-8328-57b616c946c3"
+      "value": "[YOUR_CITRIX_CLOUD_CLIENT_ID]"
     },
     "clientSecret": {
-      "value": "9dGVZs8NTbpkLAMXDFsVDw=="
+      "value": "[YOUR_CITRIX_CLOUD_CLIENT_SECRET]"
     },
     "resourceLocationId": {
-      "value": "Azure-EastUS2"
+      "value": "[CITRIX_CLOUD_RESOURCE_LOCATION_NAME]"
     },
 	"vnetName":{
-	  "value": "CTX-VNET"
+	  "value": "[AZURE_VNET_NAME]"
 	},
 	"subnetName":{
-	  "value": "Default"
+	  "value": "[AZURE_SUBNET_NAME]"
 	},
 	"domainName":{
-	  "value": "ctx"
+	  "value": "[YOUR_DOMAIN_NAME]"
 	},
 	"domainUsername":{
-	  "value": "administrator"
+	  "value": "[YOUR_DOMAIN_USER_NAME]"
 	},
 	"domainPassword":{
-	  "value": "Citrix2020!"
+	  "value": "[YOUR_DOMAIN_PASSWPRD]"
 	},
 	"cloudConnectorIP-1":{
 	  "value": "10.0.0.10"
@@ -51,7 +51,7 @@
 	  "value": "10.0.0.11"
 	},
 	"domainControllerIp":{
-	  "value": "192.168.0.150"
+	  "value": "[YOUR_DOMAIN_CONTROLLER_PRIVATE_IP]"
 	}
   }
 }
