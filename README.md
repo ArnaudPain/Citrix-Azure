@@ -1,2 +1,2 @@
 # Citrix-Azure
-Provide Azure Template to help with Azure Deploymeny
+Provide Azure Template to help with Azure Deployment
